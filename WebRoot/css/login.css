@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+#content{
+	width: 500px;
+	height: 400px;
+	margin-top: 50px;
+	border: 1px solid purple;
+	border-radius:0px 0px 10px 10px;
+}
+.position{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	text-align: left;
+}
+.mainPos{
+	font-size: 16px;
+	font-weight: bolder;
+	
+}
+.position a{
+	display: block;
+	float: right;
+	color: pink;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background: #00a0aa;
+	float: left;
+	color: #fff;
+	font-size: 24px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+.loginBtn,.regBtn{
+	width: 200px;
+	height: 30px;
+	border-radius:5px;
+	background: purple;
+	border: none;
+	display:block;
+	margin: 0 auto;
+	color: #fff;
+}
+input,.age,.usertype,.usersex,.modBtn{
+	background: pink;
+}
+.username,.userpass,.age,.usertype,.usersex,.modBtn{
+	display:block;
+	width: 200px;
+	height: 30px;
+}

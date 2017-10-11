@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageCodeMakerServlet</servlet-name>
+    <servlet-class>ImageCodeMakerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uu</servlet-name>
+    <servlet-class>uu</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>allUserServlet</servlet-name>
+    <servlet-class>allUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteServlet</servlet-name>
+    <servlet-class>deleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getUserMes</servlet-name>
+    <servlet-class>getUserMes</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyServlet</servlet-name>
+    <servlet-class>ModifyServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ImageCodeMakerServlet</servlet-name>
+    <url-pattern>/servlet/ImageCodeMakerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uu</servlet-name>
+    <url-pattern>/servlet/uu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/servlet/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>allUserServlet</servlet-name>
+    <url-pattern>/allUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteServlet</servlet-name>
+    <url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getUserMes</servlet-name>
+    <url-pattern>/getUserMes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyServlet</servlet-name>
+    <url-pattern>/servlet/ModifyServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
